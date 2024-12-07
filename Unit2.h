@@ -9,14 +9,14 @@
 
 class TForm2 : public TForm
 {
-__published: // IDE-managed Components
+__published:
     TImage *Image1;
     TImage *Image2;
     TButton *Button1;
     TButton *Button2;
     void __fastcall Button1Click(TObject *Sender);
     void __fastcall Button2Click(TObject *Sender);
-public: // User declarations
+public:
     __fastcall TForm2(TComponent* Owner);
 };
 
