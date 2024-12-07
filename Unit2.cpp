@@ -21,5 +21,5 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
 void __fastcall TForm2::Button2Click(TObject *Sender)
 {
     Image1->Visible = false;
-	Image2->Visible = true;
+    Image2->Visible = true;
 }
